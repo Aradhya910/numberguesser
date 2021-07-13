@@ -12,6 +12,7 @@ if instructions.upper() == 'W':
  You only have 5 number of guesses! ''')
 else:
     print("I did not understand that, sorry ")
+    quit()
 
 while number_of_guesses <= 4:
     guess = int(input())
